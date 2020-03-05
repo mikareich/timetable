@@ -6,5 +6,5 @@ Figma Demo UI: https://www.figma.com/file/DkH7GDysd4WuWzeeAowxcG/Timetable?node-
 ## Aufbau
 
 1. Home - Ausgewählter Stundenplan
-    2. Lessons - Einstellungen zu den Fächern + Link zu Notenapp
-    3. Settings
+2. Lessons - Einstellungen zu den Fächern + Link zu Notenapp
+3. Settings
