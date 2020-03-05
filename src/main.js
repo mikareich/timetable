@@ -2,6 +2,7 @@ import Vue from "vue";
 import App from "./App.vue";
 import "./registerServiceWorker";
 import router from "./router";
+import firebase from "firebase";
 
 Vue.config.productionTip = false;
 
@@ -14,7 +15,8 @@ const firebaseConfig = {
   messagingSenderId: "50867825754",
   appId: "1:50867825754:web:ddaf4f003f76e6980c7c63",
   measurementId: "G-QJ0HM492DK"
-}
+};
+firebase.initializeApp(firebaseConfig);
 
 new Vue({
   router,
