@@ -1,24 +1,10 @@
 # timetable
 
-## Project setup
-```
-npm install
-```
+## Ui
+Figma Demo UI: https://www.figma.com/file/DkH7GDysd4WuWzeeAowxcG/Timetable?node-id=0%3A1
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Aufbau
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. Home - Ausgewählter Stundenplan
+    2. Lessons - Einstellungen zu den Fächern + Link zu Notenapp
+    3. Settings
