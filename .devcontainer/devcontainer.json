@@ -1,0 +1,18 @@
+{
+    "name": "timetable",
+    "dockerFile": "Dockerfile",
+    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+    "forwardPorts": [3000],
+    "remoteUser": "root",
+    "postCreateCommand": "bun install",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "GitHub.copilot",
+          "bradlc.vscode-tailwindcss",
+          "biomejs.biome",
+          "oven.bun-vscode"
+        ]
+      }
+    }
+  }
